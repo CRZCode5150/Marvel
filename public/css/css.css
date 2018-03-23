@@ -1,0 +1,330 @@
+
+
+
+div figure{
+    /* padding-top: 36.56%;  /* 702px/1920px = 0.3656 */
+    padding: 0;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+.figure {
+    background: url("/img/Marvel2.jpg") no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+}
+
+#colorchange{
+
+}
+.A1{
+font-family: 'Orbitron', sans-serif;
+color: red;
+}
+
+.A2{
+    font-family: 'Orbitron', sans-serif;
+    color: red;
+    padding-top: 10px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+
+.A3{
+    padding-bottom: 75px;
+}
+
+.A4{
+    padding-top: 100px;
+
+}
+
+.A5{
+    padding-top: 30px;
+}
+
+.A6{
+    padding-top: 30px;
+
+}
+
+.A7{
+
+
+}
+
+
+
+
+.backrndshdw1{
+     background-color: rgba(0,0,0,.26);
+     color: red;
+     font-family: 'Orbitron', sans-serif;
+     font-weight: bold;
+     text-align: center;
+}
+
+
+
+
+
+/*Hover Image CSS*/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f9f9f9;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.container{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
+}
+
+
+
+.content {
+  position: relative;
+  width: 58%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  height: 300px;
+  width: 200px;
+}
+
+.content-image1{
+  height: 600px;
+  width: 400px;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+
+
+/*Heart Anmiation*/
+
+
+[id='toggle-heart'] {
+  position: absolute;
+  left: -100vw;
+}
+[id='toggle-heart']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart'] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+[id='toggle-heart1'] {
+  position: absolute;
+  left: -100vw;
+}
+[id='toggle-heart1']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart1'] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+[id='toggle-heart2'] {
+  position: absolute;
+  left: -100vw;
+}
+[id='toggle-heart2']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart2'] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+[id='toggle-heart3'] {
+  position: absolute;
+  left: -100vw;
+}
+[id='toggle-heart3']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart3'] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+[id='toggle-heart4'] {
+  position: absolute;
+  left: -100vw;
+}
+[id='toggle-heart4']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart4'] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+[id='toggle-heart5'] {
+  position: absolute;
+  left: -100vw;
+}
+[id='toggle-heart5']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart5'] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}
+[id='toggle-heart6'] {
+  position: absolute;
+  left: -100vw;
+}
+[id='toggle-heart6']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart6'] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}
+[id='toggle-heart7'] {
+  position: absolute;
+  left: -100vw;
+}
+[id='toggle-heart7']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart7'] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}
+[id='toggle-heart8'] {
+  position: absolute;
+  left: -100vw;
+}
+[id='toggle-heart8']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart8'] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}

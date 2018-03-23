@@ -12,9 +12,20 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('master');
 });
+
+Route::get('/logout', function () {
+    Auth::logout();
+    return view('master');
+});
+Route::get('/get-favorited-comics', 'HomeController@getFavoritedComics');
+Route::get('/favorites', 'HomeController@viewFavorites');
+
+Route::get('/comicdetails/{id}', 'HomeController@comicDetails');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@comics')->name('home');
+Route::post('/get_details', 'HomeController@getComics');
+Route::post('/save-favorite', 'HomeController@saveFavorite');
