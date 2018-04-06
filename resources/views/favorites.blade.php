@@ -2,9 +2,9 @@
 
 
 
-    <?php dump($allFavorites); ?>
 
-    <div class="row figure justify-content-center">
+
+    <div class="row justify-content-center">
 
 
         @foreach($allFavorites as $singleComic)

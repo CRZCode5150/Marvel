@@ -1,6 +1,6 @@
 @extends('master') @section('content')
 
-<?php dump($comics); ?>
+
 
 <div class="row justify-content-center">
     <div class="col-6 search-form text-center">

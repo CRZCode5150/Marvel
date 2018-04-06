@@ -24,7 +24,6 @@
 
         @auth
         <a id="navbarchange" class="nav-item nav-link active" href="/favorites">Favorites</a>
-        <a id="navbarchange" class="nav-item nav-link active" href="/">Settings</a>
         @endauth
         @guest
         <a id="navbarchange" class="nav-item nav-link active" href="/register">Sign Up</a>
